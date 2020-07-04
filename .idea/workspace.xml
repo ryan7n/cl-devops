@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="" />
+    <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +15,11 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e8bjImM3eBUQoNScrMjtQl6Ajo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -41,18 +49,35 @@
       <updated>1593491128515</updated>
       <workItem from="1593491130132" duration="15877000" />
       <workItem from="1593706307295" duration="3278000" />
-      <workItem from="1593785759245" duration="6018000" />
+      <workItem from="1593785759245" duration="8661000" />
     </task>
+    <task id="LOCAL-00001" summary="add domain binding">
+      <created>1593839150246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593839150246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add domain binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="add domain binding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593661347710">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593661347710" />
+    <state x="579" y="80" width="1011" height="1133" key="CommitChangelistDialog2" timestamp="1593841886648">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="579" y="80" key="CommitChangelistDialog2/0.0.1920.1080/2560.221.2192.1233@0.0.1920.1080" timestamp="1593841886648" />
+    <state x="772" y="129" width="1011" height="1133" key="CommitChangelistDialog2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593839150164" />
     <state x="1023" y="409" key="FileChooserDialogImpl" timestamp="1593785359965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
