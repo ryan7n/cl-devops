@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1e8bjImM3eBUQoNScrMjtQl6Ajo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="" />
+      <created>1593491128515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593491128515</updated>
+      <workItem from="1593491130132" duration="15877000" />
+      <workItem from="1593706307295" duration="3278000" />
+      <workItem from="1593785759245" duration="6018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593661347710">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593661347710" />
+    <state x="1023" y="409" key="FileChooserDialogImpl" timestamp="1593785359965">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1023" y="409" key="FileChooserDialogImpl/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593785359965" />
+    <state x="742" y="286" width="1076" height="754" key="SettingsEditor" timestamp="1593703283782">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="742" y="286" width="1076" height="754" key="SettingsEditor/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593703283782" />
+    <state x="888" y="513" key="com.intellij.ide.util.TipDialog" timestamp="1593706309593">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="888" y="513" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593706309593" />
+    <state x="861" y="338" width="837" height="710" key="find.popup" timestamp="1593790606927">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="861" y="338" width="837" height="710" key="find.popup/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593790606927" />
+    <state x="996" y="590" width="564" height="211" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593658125960">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="996" y="590" width="564" height="211" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593658125960" />
+  </component>
+</project>
