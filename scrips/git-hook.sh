@@ -25,6 +25,8 @@ git fetch --all  #这里使用git fetch进行拉取，不建议用git pull
 git reset --hard origin/master
 
 
+
+
 time=`date`
 echo "web server pull at webserver at time: $time."
 echo "================================================"
