@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrips/git-hook.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scrips/git-hook.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <workItem from="1593785759245" duration="10251000" />
       <workItem from="1593858111976" duration="14234000" />
       <workItem from="1594372635522" duration="2684000" />
-      <workItem from="1594455081068" duration="4345000" />
+      <workItem from="1594455081068" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="add domain binding">
       <created>1593839150246</created>
@@ -110,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594460737188</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add hook">
+      <created>1594460903092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594460903092</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,11 +135,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593661347710" />
-    <state x="772" y="44" width="1011" height="1097" key="CommitChangelistDialog2" timestamp="1594460737144">
+    <state x="772" y="10" width="1011" height="1097" key="CommitChangelistDialog2" timestamp="1594464945520">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="579" y="-17" width="1011" height="1097" key="CommitChangelistDialog2/0.0.1920.1080/2560.221.2192.1233@0.0.1920.1080" timestamp="1593842294189" />
-    <state x="772" y="44" width="1011" height="1133" key="CommitChangelistDialog2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594460737144" />
+    <state x="772" y="10" width="1011" height="1133" key="CommitChangelistDialog2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594464945520" />
     <state x="252" y="45" width="2048" height="1206" key="DiffContextDialog" timestamp="1594459996856">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

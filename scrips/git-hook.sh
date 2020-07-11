@@ -26,5 +26,6 @@ git reset --hard origin/master
 
 time=`date`
 
+
 echo "web server pull at webserver at time: $time."
 echo "================================================"
