@@ -18,6 +18,7 @@ Name=`/opt/bitnami/phabricator/bin/repository discover R"$(basename $(pwd))" |aw
 
 cd $DeployPath$Name  #进入web项目目录
 
+echo "current $PWD"
 #git stash
 #git pull origin master #不建议使用git pull，后面会有解释
 
@@ -25,7 +26,7 @@ git fetch --all  #这里使用git fetch进行拉取，不建议用git pull
 git reset --hard origin/master
 
 is_npm=$(echo $Name|grep 'front')
-if [[ $is_npm != "" ]]
+if [ $is_npm != "" ]
 then npm run build
 fi
 time=`date`
