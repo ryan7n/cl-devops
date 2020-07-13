@@ -33,6 +33,5 @@ then npm run build
 fi
 time=`date`
 
-
 echo "web server pull at webserver at time: $time."
 echo "================================================"
