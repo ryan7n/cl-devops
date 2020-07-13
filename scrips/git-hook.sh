@@ -19,6 +19,7 @@ Name=`/opt/bitnami/phabricator/bin/repository discover R"$(basename $(pwd))" |aw
 cd $DeployPath$Name  #进入web项目目录
 
 echo "current $PWD"
+echo "user: $(id)"
 #git stash
 #git pull origin master #不建议使用git pull，后面会有解释
 
