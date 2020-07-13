@@ -9,7 +9,7 @@
 #≈–∂œ «≤ª «‘∂∂À≤÷ø‚
 
 unset GIT_DIR
-DeployPath['cms']="/www/"
+DeployPath="/www/"
 
 echo "==============================================="
 
