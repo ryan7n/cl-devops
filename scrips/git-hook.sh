@@ -9,14 +9,14 @@
 #判断是不是远端仓库
 
 unset GIT_DIR
-DeployPath['cms']="/www/cms"
-DeployPath['front']="/www/admin-front"
-DeployPath['admin']="/www/admin"
+DeployPath['cms']="/www/"
 
 echo "==============================================="
 
-cd $DeployPath  #进入web项目目录
 echo "deploying the web project"
+Name=`/opt/bitnami/phabricator/bin/repository discover R"$(basename $(pwd))" |awk -F'"' '{print $2}' |head -n1`
+
+cd $DeployPath$Name  #进入web项目目录
 
 #git stash
 #git pull origin master #不建议使用git pull，后面会有解释
@@ -24,6 +24,10 @@ echo "deploying the web project"
 git fetch --all  #这里使用git fetch进行拉取，不建议用git pull
 git reset --hard origin/master
 
+is_npm=$(echo $Name|grep 'front')
+if [[ $is_npm != "" ]]
+then npm run build
+fi
 time=`date`
 
 
