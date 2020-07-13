@@ -23,6 +23,7 @@ echo "user: $(id)"
 #git stash
 #git pull origin master #不建议使用git pull，后面会有解释
 
+
 git fetch --all  #这里使用git fetch进行拉取，不建议用git pull
 git reset --hard origin/master
 
