@@ -73,7 +73,7 @@ services:
     ports:
     - 8080:80
     volumes:
-    -  ./php/php.ini:/usr/local/etc/php/php.ini
+    - ./php/php.ini:/usr/local/etc/php/php.ini
     networks:
       - app-network
 
