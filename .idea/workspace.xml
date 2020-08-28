@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="">
+    <list default="true" id="4c1c02d6-e8f2-47c3-bdbf-4fea276645e1" name="Default Changelist" comment="some modify">
+      <change afterPath="$PROJECT_DIR$/conf/laravel-worker.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/devops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrips/git-hook.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scrips/git-hook.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile/Dockerfile.app" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile/Dockerfile.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf.d/cms.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/cms.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/redis-data/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources.list" beforeDir="false" afterPath="$PROJECT_DIR$/sources.list" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,21 +46,31 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin-front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dockerfile" />
       <recent name="$PROJECT_DIR$/php" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -52,7 +86,25 @@
       <workItem from="1593785759245" duration="10251000" />
       <workItem from="1593858111976" duration="14234000" />
       <workItem from="1594372635522" duration="2684000" />
-      <workItem from="1594455081068" duration="14588000" />
+      <workItem from="1594455081068" duration="15491000" />
+      <workItem from="1594808104809" duration="7000" />
+      <workItem from="1594808368376" duration="2281000" />
+      <workItem from="1595233617528" duration="1554000" />
+      <workItem from="1595342055784" duration="599000" />
+      <workItem from="1595404366443" duration="1976000" />
+      <workItem from="1595904972422" duration="303000" />
+      <workItem from="1595905533749" duration="599000" />
+      <workItem from="1596076027613" duration="615000" />
+      <workItem from="1596082172312" duration="11000" />
+      <workItem from="1596109474785" duration="266000" />
+      <workItem from="1596199595536" duration="3747000" />
+      <workItem from="1596352419114" duration="38000" />
+      <workItem from="1596801491181" duration="5831000" />
+      <workItem from="1597416704809" duration="599000" />
+      <workItem from="1597418538019" duration="9741000" />
+      <workItem from="1597813753894" duration="255000" />
+      <workItem from="1598348273014" duration="5762000" />
+      <workItem from="1598598250763" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="add domain binding">
       <created>1593839150246</created>
@@ -173,11 +225,121 @@
       <option name="project" value="LOCAL" />
       <updated>1594635682686</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add hook">
+      <created>1594635774385</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594635774385</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add hook">
+      <created>1594635983769</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1594635983769</updated>
+    </task>
+    <task id="LOCAL-00020" summary="modify php config">
+      <created>1594808485392</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1594808485392</updated>
+    </task>
+    <task id="LOCAL-00021" summary="modify phpmyadmin config">
+      <created>1594810372191</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594810372191</updated>
+    </task>
+    <task id="LOCAL-00022" summary="modify phpmyadmin config">
+      <created>1594810427956</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594810427956</updated>
+    </task>
+    <task id="LOCAL-00023" summary="modify phpmyadmin config">
+      <created>1594810918947</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594810918947</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add nginx conf">
+      <created>1595406417323</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1595406417324</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add nginx auto reload">
+      <created>1597428114074</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428114074</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add nginx conf">
+      <created>1597428252147</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428252147</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add nginx conf">
+      <created>1597428351188</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428351188</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add nginx conf">
+      <created>1597428485215</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428485215</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add nginx conf">
+      <created>1597428718076</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1597428718076</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add nginx conf">
+      <created>1597429590893</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1597429590893</updated>
+    </task>
+    <task id="LOCAL-00031" summary="some modify">
+      <created>1598362212801</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1598362212801</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add domain binding" />
@@ -185,38 +347,57 @@
     <MESSAGE value="fix error" />
     <MESSAGE value="add phpmyadmin" />
     <MESSAGE value="add hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hook" />
+    <MESSAGE value="modify php config" />
+    <MESSAGE value="modify phpmyadmin config" />
+    <MESSAGE value="add nginx auto reload" />
+    <MESSAGE value="add nginx conf" />
+    <MESSAGE value="some modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="some modify" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593661347710">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="455" y="283" width="810" height="363" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596804342482">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="455" y="283" width="810" height="363" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1596804342482" />
     <state x="892" y="464" width="771" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593661347710" />
-    <state x="772" y="-17" width="1011" height="1097" key="CommitChangelistDialog2" timestamp="1594635774339">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="646" y="224" width="624" height="583" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597813762002">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="646" y="224" width="624" height="583" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597813762002" />
+    <state x="579" y="-17" width="900" height="823" key="CommitChangelistDialog2" timestamp="1597429590831">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="579" y="-17" width="1011" height="1097" key="CommitChangelistDialog2/0.0.1920.1080/2560.221.2192.1233@0.0.1920.1080" timestamp="1593842294189" />
-    <state x="772" y="-17" width="1011" height="1133" key="CommitChangelistDialog2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594635774339" />
+    <state x="579" y="-17" width="900" height="823" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1597429590831" />
+    <state x="772" y="-17" width="1011" height="1133" key="CommitChangelistDialog2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594635983693" />
     <state x="252" y="45" width="2048" height="1206" key="DiffContextDialog" timestamp="1594459996856">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="252" y="45" width="2048" height="1206" key="DiffContextDialog/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594459996856" />
-    <state x="1023" y="375" key="FileChooserDialogImpl" timestamp="1594634130668">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="767" y="247" key="FileChooserDialogImpl" timestamp="1596199758598">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="767" y="247" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1596199758598" />
     <state x="1023" y="375" key="FileChooserDialogImpl/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594634130668" />
-    <state x="742" y="286" width="1076" height="754" key="SettingsEditor" timestamp="1593703283782">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="557" y="198" width="900" height="754" key="SettingsEditor" timestamp="1596082160464">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="557" y="198" width="900" height="754" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1596082160464" />
     <state x="742" y="286" width="1076" height="754" key="SettingsEditor/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1593703283782" />
     <state x="878" y="418" width="800" height="555" key="Vcs.Push.Dialog.v2" timestamp="1594464964092">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="878" y="418" width="800" height="555" key="Vcs.Push.Dialog.v2/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594464964092" />
-    <state x="888" y="590" key="com.intellij.ide.util.TipDialog" timestamp="1594456622607">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="666" y="409" key="com.intellij.ide.util.TipDialog" timestamp="1597813754485">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="666" y="409" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597813754485" />
     <state x="888" y="590" key="com.intellij.ide.util.TipDialog/0.0.2560.1440/2560.221.2192.1233@0.0.2560.1440" timestamp="1594456622607" />
+    <state x="1622" y="-24" width="432" height="816" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598362165352">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="811" y="-11" width="432" height="816" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1597428248860" />
+    <state x="1622" y="-24" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1598362165352" />
     <state x="998" y="600" width="560" height="192" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594635979726">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

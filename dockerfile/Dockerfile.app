@@ -18,7 +18,7 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
     vim \
     unzip \
     git \
-    curl mariadb-client-core-10.1\
+    curl mariadb-client-core*\
     libxml2-dev \
 
 # Clear cache
