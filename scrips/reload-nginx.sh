@@ -1,13 +1,13 @@
 #!/bin/sh
 
-# ¼àÊÓµÄÎÄ¼þ»òÄ¿Â¼
+# ï¿½ï¿½ï¿½Óµï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Ä¿Â¼
 filename=$1
 
-# ¼àÊÓ·¢ÏÖÓÐÔö¡¢É¾¡¢¸ÄÊ±Ö´ÐÐµÄ½Å±¾
+# ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½Ê±Ö´ï¿½ÐµÄ½Å±ï¿½
 script=1
 
 inotifywait -mrq --format '%e' --event create,delete,modify  $filename | while read event
   do
-      case $event in MODIFY|CREATE|DELETE) (echo $event;cd `dirname $0`/../ &&  echo $PWD && /usr/local/bin/docker-compose -f docker-compose.yml restart webserver)  ;;
+      case $event in MODIFY|CREATE|DELETE) (echo $event;cd `dirname $0`/../ &&  echo $PWD && /usr/local/bin/docker-compose -f docker-compose.yml nginx -s reload)  ;;
       esac
   done
