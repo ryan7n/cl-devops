@@ -11,7 +11,7 @@ COPY wp /usr/local/bin
 RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/sources.list && rm -Rf /var/lib/apt/lists/* && apt update && apt install -y \
     build-essential \
     libpng-dev \
-    libjpeg62-turbo-dev \
+    libjpeg62-turbo-dev libonig-dev\
     libfreetype6-dev \
     locales \
     zip \
