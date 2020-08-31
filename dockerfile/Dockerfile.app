@@ -29,8 +29,6 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
 && pecl install redis && docker-php-ext-enable redis && pecl install xdebug && docker-php-ext-enable xdebug \
 # Install composer
 && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
-
-
 # Add user for laravel application
 && groupadd -g 1000 www && useradd -u 1000 -ms /bin/bash -g www www
 
@@ -42,7 +40,7 @@ COPY --chown=www:www . /var/www
 
 # Change current user to www
 USER www
-RUN wp package install aaemnnosttv/wp-cli-login-command
+#RUN wp package install aaemnnosttv/wp-cli-login-command
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
