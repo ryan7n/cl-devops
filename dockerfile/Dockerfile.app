@@ -20,7 +20,7 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
     unzip \
     git \
     curl mariadb-client-core*\
-    libxml2-dev \
+    libxml2-dev libzip-dev\
 # Clear cache
 && apt-get clean && rm -rf /var/lib/apt/lists/* && apt-get purge -y --auto-remove \
 # Install extensions
