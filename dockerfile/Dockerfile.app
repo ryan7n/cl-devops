@@ -40,7 +40,7 @@ COPY --chown=www:www . /var/www
 
 # Change current user to www
 USER www
-#RUN wp package install aaemnnosttv/wp-cli-login-command
+RUN wp package install aaemnnosttv/wp-cli-login-command
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
