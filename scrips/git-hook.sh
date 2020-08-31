@@ -6,7 +6,6 @@
 # To enable this hook, rename this file to "post-update".
 
 
-#判断是不是远端仓库
 
 unset GIT_DIR
 DeployPath="/www/"
@@ -16,15 +15,15 @@ echo "==============================================="
 echo "deploying the web project"
 Name=`/opt/bitnami/phabricator/bin/repository discover R"$(basename $(pwd))" |awk -F'"' '{print $2}' |head -n1`
 
-cd $DeployPath$Name  #进入web项目目录
+cd $DeployPath$Name
 
 echo "current $PWD"
 echo "user: $(id)"
 #git stash
-#git pull origin master #不建议使用git pull，后面会有解释
+#git pull origin master
 
 
-git fetch --all  #这里使用git fetch进行拉取，不建议用git pull
+git fetch --all
 git reset --hard origin/master
 
 is_npm=$(echo $Name|grep 'front')

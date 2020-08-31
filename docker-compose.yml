@@ -78,9 +78,7 @@ services:
       - app-network
 
   worker:
-    build:
-      context: ./dockerfile
-      dockerfile: Dockerfile.worker
+    images: registry.cn-shenzhen.aliyuncs.com/cl-saas/worker:1
     container_name: worker
     restart: unless-stopped
     volumes:
