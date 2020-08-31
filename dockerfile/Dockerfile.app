@@ -5,6 +5,7 @@ FROM php:7.4-fpm
 
 # Set working directory
 WORKDIR /var/www
+COPY wp /usr/local/bin
 
 # Install dependencies
 RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/sources.list && rm -Rf /var/lib/apt/lists/* && apt update && apt install -y \
@@ -20,14 +21,12 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
     git \
     curl mariadb-client-core*\
     libxml2-dev \
-
 # Clear cache
 && apt-get clean && rm -rf /var/lib/apt/lists/* && apt-get purge -y --auto-remove \
 # Install extensions
 && docker-php-ext-install pdo_mysql mbstring zip exif pcntl mysqli gd \
 && docker-php-ext-configure gd --with-gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-png-dir=/usr/include/ \
 && pecl install redis && docker-php-ext-enable redis && pecl install xdebug && docker-php-ext-enable xdebug \
-
 # Install composer
 && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
 
@@ -43,7 +42,7 @@ COPY --chown=www:www . /var/www
 
 # Change current user to www
 USER www
-
+RUN wp package install aaemnnosttv/wp-cli-login-command'
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
