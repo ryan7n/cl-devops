@@ -34,7 +34,6 @@ RUN su www -c 'mkdir /home/www/.composer && composer config -g repo.packagist co
 
 #wp plugin install "Multiple Domain" --activate
 
-#COPY --chown=www:www wp-cli/packages /home/www/.wp-cli/
 # Set working directory
 # Copy existing application directory contents
 #COPY . /var/www
