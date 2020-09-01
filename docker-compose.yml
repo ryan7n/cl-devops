@@ -3,10 +3,7 @@ services:
 
   #PHP Service
   app:
-    build:
-      context: ./dockerfile
-      dockerfile: Dockerfile.app
-    image: digitalocean.com/php
+    image: registry.cn-shenzhen.aliyuncs.com/cl-saas/php-fpm:5
     container_name: app
     restart: unless-stopped
     tty: true
