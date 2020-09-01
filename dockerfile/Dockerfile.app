@@ -25,7 +25,7 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
 && apt-get clean && rm -rf /var/lib/apt/lists/* && apt-get purge -y --auto-remove \
 # Install extensions
 && docker-php-ext-install pdo_mysql mbstring zip exif pcntl mysqli gd \
-&& docker-php-ext-configure gd--with-freetype=/usr/include/ --with-jpeg=/usr/include/ \
+#&& docker-php-ext-configure gd--with-freetype=/usr/include/ --with-jpeg=/usr/include/ \
 && pecl install redis && docker-php-ext-enable redis && pecl install xdebug && docker-php-ext-enable xdebug \
 # Install composer
 && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
