@@ -39,7 +39,7 @@ RUN sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/source
 # Change current user to www
 USER www
 COPY . /var/www
-RUN wp package install aaemnnosttv/wp-cli-login-command
+RUN php -d memory_limit=-1 /usr/local/bin/wp package install aaemnnosttv/wp-cli-login-command
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
 CMD ["php-fpm"]
